@@ -102,7 +102,7 @@ i {
 #hamburger-menu:checked~nav {
     display: flex;
     background: rgb(0, 0, 0);
-        background: linear-gradient(180deg, rgb(3, 0, 15) 0%, rgb(4, 0, 14) 80%, rgba(0, 13, 47, 0) 100%);
+    background: linear-gradient(180deg, rgb(3, 0, 15) 0%, rgb(4, 0, 14) 80%, rgba(0, 13, 47, 0) 100%);
     width: 100%;
     position: absolute;
     margin-top: 110px;
@@ -150,14 +150,12 @@ hr {
 .site-container {
     margin: 10px auto;
     padding: 90px;
-
-
 }
 
 
 .article-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 43px;
     padding: 120px 0;
 }
@@ -400,5 +398,13 @@ hr {
 
     .headerpicture img {
         object-fit: cover;
+    }
+    
+}
+
+
+@media screen and (max-width: 1300px) {
+.article-container {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     }
 }
