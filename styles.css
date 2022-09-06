@@ -1,0 +1,404 @@
+body {
+    background-color: white;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    /*background-image: url(images/bakgrunn.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 70% 130%;*/
+}
+
+.bg-img {
+    background-image: url(images/galaxy.png);
+    min-height: 900px;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerlogo {
+    float: left;
+    max-width: 99px;
+    display: block;
+    padding: 10px 15px;
+}
+
+.headerlogo1 {
+    float: left;
+    max-height: 89px;
+    display: block;
+    margin-top: 21px;
+}
+.searchbar {
+    float: right;
+    display: inline-flex;
+    margin-top: 30px;
+    padding: 0px 20px 0px 0px;
+}
+
+.searchbar_input {
+    width: 160px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    border: 2px solid #F8B300;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+nav,
+#hamburger-menu {
+    display: none;
+}
+
+nav ul {
+    margin-left: 50%;
+    text-align: center;
+    margin-top: 115px;
+    padding: 0px;
+}
+
+nav li {
+    display: block;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.current {
+    font-weight: bold;
+}
+
+i {
+    padding: 17px 0px 0 7px;
+}
+
+.hamburger-label {
+    margin-right: 20px;
+    color: white;
+    margin-top: 30px;
+    width: 168px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+    outline: none;
+    background-color: #1A1A1A;
+    float: right;
+}
+
+#hamburger-menu:checked~nav {
+    display: flex;
+    background: rgb(0, 0, 0);
+        background: linear-gradient(180deg, rgb(3, 0, 15) 0%, rgb(4, 0, 14) 80%, rgba(0, 13, 47, 0) 100%);
+    width: 100%;
+    position: absolute;
+    margin-top: 110px;
+}
+
+.headerpicture {
+    max-width: 100%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #F8B300;
+    margin: 1em auto;
+}
+
+
+.centered {
+    color: white;
+    font-weight: lighter;
+    line-height: 1.3;
+    font-size: 80px;
+    display: block;
+    margin-top: -58%;
+
+}
+
+.undertext {
+    color: white;
+    font-weight: lighter;
+    line-height: 1.3;
+    font-size: 30px;
+    margin-top: 0%;
+}
+
+.undertextblue {
+    color: #41E3DE;
+    text-decoration: none;
+}
+
+
+
+
+.site-container {
+    margin: 10px auto;
+    padding: 90px;
+
+
+}
+
+
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    gap: 43px;
+    padding: 120px 0;
+}
+
+.article-image1 {
+    border-top: 10px solid #41E3DE;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.article-image2 {
+    border-top: 10px solid #F8B300;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.article-image3 {
+    border-top: 10px solid #E341A8;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.article-image4 {
+    border-top: 10px solid #41E35C;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.article-image1 img,
+.article-image2 img,
+.article-image3 img,
+.article-image4 img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.article-image1 img {
+    object-position: 0% 80%;
+
+}
+
+
+
+
+.article-card {
+    background: white;
+    transition: 0.3s;
+}
+
+.article-card:hover {
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+
+}
+
+
+.article-content {
+    text-align: center;
+    margin: 0;
+    color: #22447b;
+}
+
+
+
+.learn-more {
+    border: none;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    float: left;
+    font-size: 16px;
+
+}
+
+.read-more {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+.container1 {
+    width: 100%;
+    height: 200px;
+    background-color: #F8B300;
+}
+
+.container2 {
+    width: 100%;
+    height: 200px;
+    background-color: #FF7A5B;
+}
+
+.container-image {
+    float: right;
+    width: 1100px;
+    object-fit: fill;
+}
+
+.container-image img,
+.container-image2 img {
+    object-fit: cover;
+}
+
+.container-content {
+    position: absolute;
+    padding: 30px;
+    width: 750px;
+}
+
+.container-content2 {
+    float: right;
+    width: 750px;
+    padding: 30px;
+}
+
+.container-image2 {
+    float: left;
+    width: 1100px;
+    object-fit: fill;
+    position: absolute;
+}
+
+.greycontent {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .site-container {
+        margin: 0px auto;
+    }
+
+    nav ul {
+        margin-left: 40%;
+    }
+
+    .article-image1 img {
+        object-position: 0% 60%;
+
+    }
+
+    .article-container {
+        margin-top: -10px;
+        gap: 40px;
+    }
+
+    .dropdown-menu,
+    .searchbar {
+        display: none;
+    }
+
+    .headerlogo1 {
+        display: none;
+    }
+
+    .main-header {
+        min-height: 70px;
+        position: fixed;
+    }
+
+    .headerlogo {
+        max-width: 55px;
+    }
+
+    .hamburger-label {
+        width: 100px;
+        height: 34px;
+        font-size: 14px;
+        margin-top: 17px;
+    }
+
+    i {
+        padding: 10px 0px 0 7px;
+    }
+
+    .centered {
+        font-size: 40px;
+        margin-top: -500px;
+        margin-bottom: 20px;
+        text-align: center;
+       
+    }
+
+    .undertext {
+        font-size: 18px;
+        padding: 40px 0px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 160px;
+    }
+
+    .container-content {
+        width: 50%;
+    }
+
+    .container-image {
+        width: 50%;
+    }
+
+    .color-container {
+        display: none;
+    }
+
+    .headerpicture {
+        width: 100%;
+        max-height: 500px;
+    }
+
+    .headerpicture img {
+        object-fit: cover;
+    }
+
+    .bg-img {
+        
+        background-position: 15% 0%;
+      
+     }
+
+   
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .site-container {
+        max-width: 1176px;
+        object-position: center;
+    }
+
+    .headerpicture img {
+        object-fit: cover;
+    }
+}
