@@ -5,7 +5,7 @@ body {
     line-height: 1.5;
 }
 
-.bg-img {
+.topheader-img {
     background-image: url(images/galaxy.png);
     min-height: 900px;
     background-position: 0% 0%;
@@ -161,7 +161,7 @@ hr.new1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #EEEDE0;
+    background: #EEEDE0;
 
 }
 
@@ -170,7 +170,7 @@ hr.new1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #f7f6ec;
+    background: #EEEDE0;
 }
 
 .article-image3 {
@@ -178,7 +178,7 @@ hr.new1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #f7f6ec;
+    background: #EEEDE0;
 }
 
 .article-image4 {
@@ -186,7 +186,7 @@ hr.new1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background: #EEEDE0;
 }
 
 .article-image1 img,
@@ -205,6 +205,7 @@ hr.new1 {
 
 .card-title{
     background-color: #EEEDE0;
+    font-size: 24px;
 }
 
 
@@ -215,7 +216,6 @@ hr.new1 {
 
 .article-card:hover {
     box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
-
 }
 
 
@@ -232,29 +232,17 @@ hr.line{
     border: 0;
     border-top: 1px solid #13130d;
     margin: 1em auto;
-        }
-
-
-
-.learn-more {
-    border: none;
-    text-decoration: underline;
-    color: black;
-    cursor: pointer;
-    text-align: center;
-    outline: none;
-    background-color: transparent;
-    float: left;
-    font-size: 16px;
-
 }
 
+
 .read-more {
+    font-size: 16px;
     width: 100%;
     height: 50px;
     border: none;
     background-color: #EEEDE0;
     cursor: pointer;
+    padding-bottom: 60px;
 }
 
 /*museum info container */
@@ -274,6 +262,7 @@ hr.line{
     object-position: center;
     text-align: center;
     padding: 20% 20%;
+    font-size: 24px;
 }
 
 
@@ -284,13 +273,49 @@ hr.line{
     background-position: 30% 40%;
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 
 .gallery{
     margin-top: 500px;
     position: absolute;
+}
 
+.welcomebig{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*gallery wall*/
+
+.gallerywall{
+    margin-top: 700px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.row{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 40px;
+}
+
+.column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 40px 40px;
+}
+
+.column img{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.footer{
+    background-color: #13130d;
+    width: 100%;
+    height: 500px;
 }
 
 
@@ -298,6 +323,26 @@ hr.line{
 
 
 @media screen and (max-width: 768px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .column img{
+        margin-top: 0px;
+    }
+
+    .row{
+            
+        padding: 10px;
+    }
+
+    .gallerywall{
+        font-size: 30px;
+        margin-top: 1000px;
+    }
+
     .site-container {
         margin: 0px auto;
     }
@@ -312,7 +357,7 @@ hr.line{
     }
 
     .article-container {
-        margin-top: 330px;
+        margin-top: 0px;
         gap: 40px;
     }
 
@@ -399,7 +444,19 @@ hr.line{
         position: relative;
         background-image: url(images/gallery.jpg);
         width: 100%;
+        min-height: 600px;
+        background-position: 30% 80%;
      }
+
+    .welcomebig {
+        font-size: 36px;
+     }
+
+     .leftcontent{
+        font-size: 20px;
+     }
+
+    
 
      
 
@@ -427,16 +484,14 @@ hr.line{
 
 @media screen and (max-width: 1200px) {
 .article-container {
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-        padding: 40px;
+        grid-template-columns: repeat(auto-fill, minmax(367px, 1fr));
        
     }
-       
-    
 
-    .centered, .undertext{
-        padding-left: 40px;
-    }
+    .searchbar{display: none;}
+       
+
+  
 }
 
 
