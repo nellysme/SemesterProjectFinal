@@ -18,7 +18,7 @@ p{
 }
 
 .topheader-img {
-    background-image: url(images/galaxy.png);
+    background-image: url(images/compressed/Pi7_Image_galaxy.jpg);
     min-height: 900px;
     background-position: 0% 0%;
     background-repeat: no-repeat;
@@ -39,6 +39,7 @@ p{
     display: block;
     padding: 20px 30px 45px;
 }
+
 
 .headerlogo1 {
     float: left;
@@ -289,7 +290,7 @@ hr.line{
 .right{
     background: blue;
     min-height: 800px;
-    background-image: url(images/gallery.jpg);
+    background-image: url(images/compressed/Pi7_Image_gallery\ \(1\).jpg);
     background-position: 30% 40%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -340,16 +341,10 @@ hr.line{
     display: grid;
     grid-auto-columns: minmax(100px, auto);
     grid-gap: 1rem;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     justify-content: space-evenly;
     padding-top: 60px;
     font-size: 24px;
-}
-
-.footercontent{
-   
-
-    
 }
 
 
@@ -374,6 +369,8 @@ hr.green {
     padding-top: 13px;
 }
 
+
+
 .footermenu a{
     color: white;
     text-decoration: none;
@@ -395,7 +392,7 @@ hr.green {
 
 }
 
-.visit{
+.headline{
     text-align: center;
 
 }
@@ -419,9 +416,42 @@ hr.green {
     
 }
 
-.professor{
+.explore{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 30px;
+    justify-content: space-between;
     
-    
+}
+.explore-content{
+    padding-bottom: 40px;
+}
+
+
+
+
+
+.contactform{
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+input[type="textt"], input[type="mail"], textarea{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #F8B300;
+    border: transparent;
 }
 
 
@@ -431,7 +461,11 @@ hr.green {
 
 
 
+
+
 @media screen and (max-width: 768px) {
+
+  
 
     .event{
         grid-template-columns: auto;
@@ -447,6 +481,14 @@ hr.green {
 
     h2{
         font-size: 24px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .event1img img{
+        height: 50%;
     }
     .column {
         flex: 100%;
@@ -467,6 +509,8 @@ hr.green {
         font-size: 30px;
         margin-top: 1050px;
     }
+
+    
 
     .site-container {
         margin: 0px auto;
@@ -494,6 +538,8 @@ hr.green {
     .headerlogo1 {
         display: none;
     }
+
+   
 
     .main-header {
         min-height: 70px;
@@ -605,19 +651,19 @@ hr.green {
     .headerpicture img {
         object-fit: cover;
     }
-
+     
     
     
 }
 
 
 @media screen and (max-width: 1200px) {
-.article-container {
-    grid-template-columns: repeat(auto-fill, minmax(367px, 1fr)); 
-    }
+
+    
 .site-container {
     padding: 30px;
 }
+
     .searchbar{display: none;}
 
    
