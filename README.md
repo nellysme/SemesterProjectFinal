@@ -1,6 +1,8 @@
 # Semester Project
 
-![comunity](https://github.com/nellysme/SemesterProjectFinal/assets/95544187/0f4e110d-1772-4487-ba24-4b224a590ec8)
+
+![comunity](https://github.com/nellysme/SemesterProjectFinal/assets/95544187/5c90afaf-d041-47e4-b3be-3bc532072f97)
+
 
 
 ## Description
