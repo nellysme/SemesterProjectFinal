@@ -33,7 +33,7 @@ This site is made with a Wordpress API.
 ```
 
 ### Live link
-[Live demo]([https://guileless-cobbler-65dead.netlify.app/](https://vocal-kulfi-9ddc34.netlify.app/index.html))
+[Live demo](https://vocal-kulfi-9ddc34.netlify.app/index.html)
 
 # Contact
 
